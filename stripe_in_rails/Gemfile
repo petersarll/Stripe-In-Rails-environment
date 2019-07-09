@@ -66,3 +66,5 @@ gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby'
 # this gem is added due to an error with windows not downloading the c extension on devise and will create a bug later. this line 
 # is not needed for mac but will be needed for windows
 
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
